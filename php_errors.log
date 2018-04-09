@@ -1,0 +1,262 @@
+[29-Jan-2018 15:22:47 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/home/ubuntu/workspace/var/cache/prod/doctrine/orm/Proxies".' in /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:53
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(52): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/home/ubuntu/wo...')
+#1 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(684): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(137): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(197): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /home/ubuntu/workspace/web/app.php( in /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php on line 53
+[12-Feb-2018 08:41:09 UTC] PHP Parse error:  syntax error, unexpected ''loi'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[12-Feb-2018 08:41:09 UTC] PHP Stack trace:
+[12-Feb-2018 08:41:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:41:09 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[12-Feb-2018 08:41:09 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 08:41:09 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 08:41:09 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[12-Feb-2018 08:41:09 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[12-Feb-2018 08:41:09 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[12-Feb-2018 08:41:09 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[12-Feb-2018 08:41:09 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[12-Feb-2018 08:41:09 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 08:41:09 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 08:41:09 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 14:54:42 UTC] PHP Parse error:  syntax error, unexpected ''loi'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[12-Feb-2018 14:54:42 UTC] PHP Stack trace:
+[12-Feb-2018 14:54:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[12-Feb-2018 14:54:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:19
+[12-Feb-2018 14:54:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 14:54:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4812
+[12-Feb-2018 14:54:42 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/var/cache/prod/classes.php:4846
+[12-Feb-2018 14:54:42 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/var/cache/prod/classes.php:5083
+[12-Feb-2018 14:54:42 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:4337
+[12-Feb-2018 14:54:42 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:5152
+[12-Feb-2018 14:54:42 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:5092
+[12-Feb-2018 14:54:42 UTC] PHP  10. class_exists() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[12-Feb-2018 14:54:42 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[12-Feb-2018 14:54:42 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[12-Feb-2018 14:54:42 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[12-Feb-2018 14:54:53 UTC] PHP Parse error:  syntax error, unexpected ''loi'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[12-Feb-2018 14:54:53 UTC] PHP Stack trace:
+[12-Feb-2018 14:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 14:54:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[12-Feb-2018 14:54:53 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 14:54:53 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 14:54:53 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[12-Feb-2018 14:54:53 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[12-Feb-2018 14:54:53 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[12-Feb-2018 14:54:53 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[12-Feb-2018 14:54:53 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[12-Feb-2018 14:54:53 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 14:54:53 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 14:54:53 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:01:37 UTC] PHP Parse error:  syntax error, unexpected ''loi'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[12-Feb-2018 15:01:37 UTC] PHP Stack trace:
+[12-Feb-2018 15:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 15:01:37 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[12-Feb-2018 15:01:37 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 15:01:37 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 15:01:37 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[12-Feb-2018 15:01:37 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[12-Feb-2018 15:01:37 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[12-Feb-2018 15:01:37 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[12-Feb-2018 15:01:37 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[12-Feb-2018 15:01:37 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:01:37 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:01:37 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:02:48 UTC] PHP Parse error:  syntax error, unexpected ''loi'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[12-Feb-2018 15:02:48 UTC] PHP Stack trace:
+[12-Feb-2018 15:02:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 15:02:48 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[12-Feb-2018 15:02:48 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 15:02:48 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 15:02:48 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[12-Feb-2018 15:02:48 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[12-Feb-2018 15:02:48 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[12-Feb-2018 15:02:48 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[12-Feb-2018 15:02:48 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[12-Feb-2018 15:02:48 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:02:48 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:02:48 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:02:51 UTC] PHP Parse error:  syntax error, unexpected ''loi'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[12-Feb-2018 15:02:51 UTC] PHP Stack trace:
+[12-Feb-2018 15:02:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 15:02:51 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[12-Feb-2018 15:02:51 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 15:02:51 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 15:02:51 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[12-Feb-2018 15:02:51 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[12-Feb-2018 15:02:51 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[12-Feb-2018 15:02:51 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[12-Feb-2018 15:02:51 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[12-Feb-2018 15:02:51 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:02:51 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[12-Feb-2018 15:02:51 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:17 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 06:23:17 UTC] PHP Stack trace:
+[26-Mar-2018 06:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 06:23:17 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 06:23:17 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 06:23:17 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 06:23:17 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 06:23:17 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 06:23:17 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 06:23:17 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 06:23:17 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 06:23:17 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:17 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:17 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:33 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 06:23:33 UTC] PHP Stack trace:
+[26-Mar-2018 06:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 06:23:33 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 06:23:33 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 06:23:33 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 06:23:33 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 06:23:33 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 06:23:33 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 06:23:33 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 06:23:33 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 06:23:33 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:33 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:33 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:46 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 06:23:46 UTC] PHP Stack trace:
+[26-Mar-2018 06:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 06:23:46 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 06:23:46 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 06:23:46 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 06:23:46 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 06:23:46 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 06:23:46 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 06:23:46 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 06:23:46 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 06:23:46 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:46 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 06:23:46 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:14:29 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 07:14:29 UTC] PHP Stack trace:
+[26-Mar-2018 07:14:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[26-Mar-2018 07:14:29 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:19
+[26-Mar-2018 07:14:29 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[26-Mar-2018 07:14:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4812
+[26-Mar-2018 07:14:29 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/var/cache/prod/classes.php:4846
+[26-Mar-2018 07:14:29 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/var/cache/prod/classes.php:5083
+[26-Mar-2018 07:14:29 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:4337
+[26-Mar-2018 07:14:29 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:5152
+[26-Mar-2018 07:14:29 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:5092
+[26-Mar-2018 07:14:29 UTC] PHP  10. class_exists() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[26-Mar-2018 07:14:29 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[26-Mar-2018 07:14:29 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[26-Mar-2018 07:14:29 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[26-Mar-2018 07:14:39 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 07:14:39 UTC] PHP Stack trace:
+[26-Mar-2018 07:14:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 07:14:39 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 07:14:39 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 07:14:39 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 07:14:39 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 07:14:39 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 07:14:39 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 07:14:39 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 07:14:39 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 07:14:39 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:14:39 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:14:39 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:15:45 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 07:15:45 UTC] PHP Stack trace:
+[26-Mar-2018 07:15:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 07:15:45 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 07:15:45 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 07:15:45 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 07:15:45 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 07:15:45 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 07:15:45 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 07:15:45 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 07:15:45 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 07:15:45 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:15:45 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:15:45 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:16:53 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 07:16:53 UTC] PHP Stack trace:
+[26-Mar-2018 07:16:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 07:16:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 07:16:53 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 07:16:53 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 07:16:53 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 07:16:53 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 07:16:53 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 07:16:53 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 07:16:53 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 07:16:53 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:16:53 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:16:53 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:16:58 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 07:16:58 UTC] PHP Stack trace:
+[26-Mar-2018 07:16:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 07:16:58 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 07:16:58 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 07:16:58 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 07:16:58 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 07:16:58 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 07:16:58 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 07:16:58 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 07:16:58 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 07:16:58 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:16:58 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 07:16:58 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:05:34 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 14:05:34 UTC] PHP Stack trace:
+[26-Mar-2018 14:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[26-Mar-2018 14:05:34 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:19
+[26-Mar-2018 14:05:34 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[26-Mar-2018 14:05:34 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/prod/classes.php:4812
+[26-Mar-2018 14:05:34 UTC] PHP   5. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->getController() /home/ubuntu/workspace/var/cache/prod/classes.php:4846
+[26-Mar-2018 14:05:34 UTC] PHP   6. Symfony\Component\HttpKernel\Controller\ControllerResolver->getController() /home/ubuntu/workspace/var/cache/prod/classes.php:5083
+[26-Mar-2018 14:05:34 UTC] PHP   7. Symfony\Bundle\FrameworkBundle\Controller\ControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:4337
+[26-Mar-2018 14:05:34 UTC] PHP   8. Symfony\Component\HttpKernel\Controller\ContainerControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:5152
+[26-Mar-2018 14:05:34 UTC] PHP   9. Symfony\Component\HttpKernel\Controller\ControllerResolver->createController() /home/ubuntu/workspace/var/cache/prod/classes.php:5092
+[26-Mar-2018 14:05:34 UTC] PHP  10. class_exists() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[26-Mar-2018 14:05:34 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[26-Mar-2018 14:05:34 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/var/cache/prod/classes.php:4393
+[26-Mar-2018 14:05:34 UTC] PHP  13. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[26-Mar-2018 14:05:53 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 14:05:53 UTC] PHP Stack trace:
+[26-Mar-2018 14:05:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 14:05:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 14:05:53 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 14:05:53 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 14:05:53 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 14:05:53 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 14:05:53 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 14:05:53 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 14:05:53 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 14:05:53 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:05:53 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:05:53 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:05:58 UTC] PHP Parse error:  syntax error, unexpected ''form'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 37
+[26-Mar-2018 14:05:58 UTC] PHP Stack trace:
+[26-Mar-2018 14:05:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 14:05:58 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 14:05:58 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 14:05:58 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 14:05:58 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 14:05:58 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 14:05:58 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 14:05:58 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 14:05:58 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 14:05:58 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:05:58 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:05:58 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:19:03 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 33
+[26-Mar-2018 14:19:03 UTC] PHP Stack trace:
+[26-Mar-2018 14:19:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[26-Mar-2018 14:19:03 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:30
+[26-Mar-2018 14:19:03 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[26-Mar-2018 14:19:03 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[26-Mar-2018 14:19:03 UTC] PHP   5. Symfony\Component\Config\ConfigCache->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:585
+[26-Mar-2018 14:19:03 UTC] PHP   6. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2913
+[26-Mar-2018 14:19:03 UTC] PHP   7. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh() /home/ubuntu/workspace/var/cache/dev/classes.php:2836
+[26-Mar-2018 14:19:03 UTC] PHP   8. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/SelfCheckingResourceChecker.php:34
+[26-Mar-2018 14:19:03 UTC] PHP   9. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:45
+[26-Mar-2018 14:19:03 UTC] PHP  10. ReflectionClass->__construct() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:19:03 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
+[26-Mar-2018 14:19:03 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/Config/Resource/ReflectionClassResource.php:100
